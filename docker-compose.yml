@@ -6,8 +6,8 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - '.:/app'
-      - '/app/node_modules'
+      - '.:/home/circleci'
+      - '/home/circleci/node_modules'
     ports:
       - '9966:3000'
     environment:
