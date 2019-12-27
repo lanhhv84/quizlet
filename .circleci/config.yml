@@ -25,6 +25,10 @@ jobs:
           # Runs jest with "--maxWorkers=2" argument to avoid OOM issues
           command: |
             yarn test
+      - run:
+          name: End to end test with cypress
+          command: |
+            yarn cp
       - store_artifacts:
           path: test-results
 
