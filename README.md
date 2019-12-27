@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/lanhhv84/quizlet/tree/master.svg?style=svg?circle-token=c4a62e52da81d36ebc28e6058c95a9b2f9d243cd)](https://circleci.com/gh/lanhhv84/quizlet/tree/master)
+[![CircleCI](https://circleci.com/gh/lanhhv84/quizlet/tree/master.svg?style=svg)](https://circleci.com/gh/lanhhv84/quizlet/tree/master)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
