@@ -1,0 +1,86 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest/globals": true
+  },
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react",
+    "plugin:cypress/recommended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly",
+    "cypress/globals": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "jest",
+    "cypress"
+  ],
+  "rules": {
+    "semi": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "import/no-unresolved": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "dot-location": [
+      "error",
+      "property"
+    ],
+    "eol-last": [
+      "error",
+      "always"
+    ],
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1,
+        "maxEOF": 1
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": false,
+        "optionalDependencies": false,
+        "peerDependencies": false,
+        "packageDir": "./"
+      }
+    ],
+    "import/prefer-default-export": "off",
+    "react/jsx-props-no-spreading": "off",
+    "camelcase": "off",
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "all",
+        "ignoreRestSiblings": false
+      }
+    ]
+  }
+}
