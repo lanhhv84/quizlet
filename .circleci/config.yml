@@ -24,7 +24,8 @@ jobs:
           name: Run tests
           # Runs jest with "--maxWorkers=2" argument to avoid OOM issues
           command: |
-            yarn test
+            yarn test --coverage
+            yarn coveralls
       - run:
           name: End to end test with cypress
           command: |

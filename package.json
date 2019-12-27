@@ -15,8 +15,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "cp-r": "cypress run",
-    "cp": "PORT=3001 start-server-and-test start http://localhost:3001 cp-r"
+    "cp-r": "cypress install && cypress run",
+    "cp": "PORT=3001 start-server-and-test start http://localhost:3001 cp-r",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -42,7 +43,7 @@
     "babel-plugin-module-resolver": "^3.2.0",
     "babel-plugin-root-import": "^6.4.1",
     "babel-preset-env": "^1.7.0",
-    "coveralls": "^3.0.8",
+    "coveralls": "^3.0.9",
     "customize-cra": "^0.9.1",
     "cypress": "^3.8.0",
     "eslint": "^6.6.0",
