@@ -1,4 +1,11 @@
+## Status
+### Master
 [![CircleCI](https://circleci.com/gh/lanhhv84/quizlet/tree/master.svg?style=svg)](https://circleci.com/gh/lanhhv84/quizlet/tree/master)
+[![Coverage Status](https://coveralls.io/repos/github/lanhhv84/quizlet/badge.svg?branch=master)](https://coveralls.io/github/lanhhv84/quizlet?branch=master)
+
+### Develop
+[![CircleCI](https://circleci.com/gh/lanhhv84/quizlet/tree/develop.svg?style=svg)](https://circleci.com/gh/lanhhv84/quizlet/tree/develop)
+[![Coverage Status](https://coveralls.io/repos/github/lanhhv84/quizlet/badge.svg?branch=develop)](https://coveralls.io/github/lanhhv84/quizlet?branch=develop)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
